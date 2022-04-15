@@ -3,30 +3,31 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Title (display)
-title: Japan CSS Support Example Blog
+title: Yuniikur-lab Example Blog
 # Sub Title (display)
-subtitle: Japan CSS Support Example Blog
+subtitle: Yuniikur-lab Example Blog
 # Description
-description: Japan CSS Support Example Blog
+description: Yuniikur-lab Example Blog
 
 # Keywords
 keywords:
-  - Information
+  - テスト用ブログ
   - Example
 
-author: CSS Japan
+author: yuniikur
 
 # Tag (hexo helper)
 root_tag_generator:
   root_tag_names:
-    - Information
+    - テスト用ブログ
+    - Example
   sub_tag_limit: 20
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://cssjpn.github.io/blog/
+url: https://yuniikur-lab.github.io/blog/
 github:
-  url: https://github.com/cssjpn/blog-example/
+  url: https://github.com/yuniikur-lab/blog
   posts_dir: articles
   default_branch: main
 
@@ -41,7 +42,7 @@ skip_render:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:cssjpn/blog-example.git
+  repo: git@github.com:yuniikur-lab/blog.git
   branch: gh-pages
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }} [skip ci]"
 
